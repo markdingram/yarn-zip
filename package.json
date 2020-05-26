@@ -1,0 +1,11 @@
+{
+  "name": "yarn-zip",
+  "scripts": {
+    "test": "node test.js",
+    "slow": "node slow.js"
+  },
+  "dependencies": {
+    "@aws-cdk/aws-s3-deployment": "^1.41.0",
+    "@aws-cdk/core": "^1.41.0"
+  }
+}
